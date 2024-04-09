@@ -13,6 +13,8 @@
 		B848BB7E2BB7D7D0001D953C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7C2BB7D7D0001D953C /* Main.storyboard */; };
 		B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7F2BB7D7D4001D953C /* Assets.xcassets */; };
 		B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB812BB7D7D4001D953C /* LaunchScreen.storyboard */; };
+		B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */; };
+		B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */; };
 		B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3442BC521880031D97D /* LoginViewController.swift */; };
 		B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3452BC521880031D97D /* WelcomeViewController.swift */; };
 		B8D8E34E2BC521930031D97D /* iOS_miniSeminar_1st.md in Resources */ = {isa = PBXBuildFile; fileRef = B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */; };
@@ -35,6 +37,8 @@
 		B848BB7F2BB7D7D4001D953C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B848BB822BB7D7D4001D953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B848BB842BB7D7D4001D953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
+		B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
 		B8D8E3442BC521880031D97D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8D8E3452BC521880031D97D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = iOS_miniSeminar_1st.md; sourceTree = "<group>"; };
@@ -102,6 +106,24 @@
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
 		};
+		B8D533292BC5A685002D8FC0 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */,
+				B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		B8D5332A2BC5A68F002D8FC0 /* DelegatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8E34A2BC521930031D97D /* LoginViewController_DelegatePattern.swift */,
+				B8D8E34C2BC521930031D97D /* WelcomeViewController_DelegatePattern.swift */,
+			);
+			path = DelegatePattern;
+			sourceTree = "<group>";
+		};
 		B8D8E3462BC521880031D97D /* 1st */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +136,10 @@
 		B8D8E34D2BC521930031D97D /* 2nd */ = {
 			isa = PBXGroup;
 			children = (
+				B8D5332A2BC5A68F002D8FC0 /* DelegatePattern */,
+				B8D533292BC5A685002D8FC0 /* Closure */,
 				B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */,
-				B8D8E34A2BC521930031D97D /* LoginViewController_DelegatePattern.swift */,
 				B8D8E34B2BC521930031D97D /* ScrollView.swift */,
-				B8D8E34C2BC521930031D97D /* WelcomeViewController_DelegatePattern.swift */,
 			);
 			path = 2nd;
 			sourceTree = "<group>";
@@ -207,7 +229,9 @@
 				B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */,
 				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
+				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
 				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
+				B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */,
 				B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */,
 				B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */,
 				B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */,
