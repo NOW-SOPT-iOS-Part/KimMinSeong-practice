@@ -33,7 +33,7 @@ class WelcomeViewController: UIViewController {
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
-        label.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
+//        label.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
             return label
     }()
     
@@ -42,7 +42,7 @@ class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("메인으로", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.titleLabel?.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
+//        button.titleLabel?.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
 //        button.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         button.layer.cornerRadius = 10 // 메인으로 돌아가기 버튼에 곡률 추가
             return button
@@ -53,7 +53,7 @@ class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         button.setTitle("다시 로그인하기", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.titleLabel?.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
+//        button.titleLabel?.font = UIFont(name: "Pretendard-Bold.otf", size: 18)
         button.addTarget(self, action: #selector(backToLoginButtonDidTap), for: .touchUpInside)
         button.layer.cornerRadius = 10 // 다시 로그인하기 버튼에 곡률 추가
         return button
