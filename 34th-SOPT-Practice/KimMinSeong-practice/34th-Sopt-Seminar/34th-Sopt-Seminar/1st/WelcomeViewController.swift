@@ -21,7 +21,7 @@ class WelcomeViewController: UIViewController {
         bindID()
     }
     
-    private let logoImage: UIImageView = {
+    private let logoImage: UIImageView = { 
         let imageView = UIImageView(frame: CGRect(x: 122, y: 87, width: 150, height: 150))
         imageView.image = UIImage(named: "logo")
         return imageView

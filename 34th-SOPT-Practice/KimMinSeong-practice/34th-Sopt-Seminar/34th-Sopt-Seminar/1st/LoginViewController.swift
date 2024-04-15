@@ -73,6 +73,7 @@ class LoginViewController: UIViewController {
 //        pushToWelcomeVC()
     }
     
+    // 모달 방식으로 화면을 띄우는 방식
     private func presentToWelcomeVC() {
         let welcomeViewController = WelcomeViewController()
 //        welcomeViewController.modalTransitionStyle = .flipHorizontal
@@ -81,6 +82,7 @@ class LoginViewController: UIViewController {
         self.present(welcomeViewController, animated: true)
     }
     
+    // 네비게이션 방식으로 화면을 띄우는 방식
     private func pushToWelcomeVC() {
         let welcomeViewController = WelcomeViewController()
         welcomeViewController.id = idTextField.text
