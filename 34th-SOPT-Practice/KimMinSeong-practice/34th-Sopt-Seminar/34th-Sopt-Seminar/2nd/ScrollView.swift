@@ -55,8 +55,10 @@ class ScrollView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.isNavigationBarHidden = true
         self.view.backgroundColor = .white
         setLayout()
+        
     }
     
     private func setLayout() {
@@ -78,45 +80,47 @@ class ScrollView: UIViewController {
         }
         
         redView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(44)
+            $0.top.equalTo(contentView)
             $0.leading.equalToSuperview()
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
         }
         
         orangeView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(44)
+            $0.top.equalTo(contentView)
             $0.leading.equalToSuperview().offset(187)
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
         }
         
         yellowView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(381)
+            $0.top.equalTo(redView.snp.bottom)
             $0.leading.equalToSuperview()
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
         }
         
         greenView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(381)
+            $0.top.equalTo(orangeView.snp.bottom)
             $0.leading.equalToSuperview().offset(187)
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
         }
         
         blueView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(718)
+            $0.top.equalTo(yellowView.snp.bottom)
             $0.leading.equalToSuperview()
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
+            $0.bottom.equalTo(contentView)
         }
         
         purpleView.snp.makeConstraints {
-            $0.top.equalTo(contentView).offset(718)
+            $0.top.equalTo(greenView.snp.bottom)
             $0.leading.equalToSuperview().offset(188)
             $0.height.equalTo(337)
             $0.width.equalTo(187.5)
+            $0.bottom.equalTo(contentView)
         }
     }
     

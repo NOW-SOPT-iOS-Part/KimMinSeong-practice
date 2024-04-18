@@ -10,6 +10,7 @@ import UIKit
 
 final class LoginViewController_Closure: UIViewController {
     
+    
     private let titleLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 69, y: 161, width: 236, height: 44))
         label.text = "동네라서 가능한 모든것\n당근에서 가까운 이웃과 함께해요."
