@@ -13,6 +13,8 @@
 		B848BB7E2BB7D7D0001D953C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7C2BB7D7D0001D953C /* Main.storyboard */; };
 		B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7F2BB7D7D4001D953C /* Assets.xcassets */; };
 		B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB812BB7D7D4001D953C /* LaunchScreen.storyboard */; };
+		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
+		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
 		B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */; };
 		B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */; };
 		B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3442BC521880031D97D /* LoginViewController.swift */; };
@@ -37,6 +39,9 @@
 		B848BB7F2BB7D7D4001D953C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B848BB822BB7D7D4001D953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B848BB842BB7D7D4001D953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
 		B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
 		B8D8E3442BC521880031D97D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +71,9 @@
 		B83176F42BBE397500FF9F48 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */,
+				B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */,
+				B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */,
 				B8E03C992BBF231300C3FC88 /* Pretendard-ExtraLight.otf */,
 				B8E03C982BBF231300C3FC88 /* Pretendard-Light.otf */,
 				B8E03C9A2BBF231300C3FC88 /* Pretendard-Thin.otf */,
@@ -210,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */,
+				B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */,
+				B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */,
 				B8E03CA12BBF231300C3FC88 /* Pretendard-ExtraLight.otf in Resources */,
 				B8E03CA22BBF231300C3FC88 /* Pretendard-Thin.otf in Resources */,
 				B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */,
