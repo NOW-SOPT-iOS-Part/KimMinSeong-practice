@@ -13,16 +13,21 @@
 		B848BB7E2BB7D7D0001D953C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7C2BB7D7D0001D953C /* Main.storyboard */; };
 		B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7F2BB7D7D4001D953C /* Assets.xcassets */; };
 		B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB812BB7D7D4001D953C /* LaunchScreen.storyboard */; };
-		B848BB8B2BB7E4B3001D953C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848BB8A2BB7E4B3001D953C /* LoginViewController.swift */; };
-		B848BB8D2BB7E91C001D953C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848BB8C2BB7E91C001D953C /* WelcomeViewController.swift */; };
-		B8E03C9D2BBF231300C3FC88 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C952BBF231300C3FC88 /* Pretendard-Regular.otf */; };
-		B8E03C9E2BBF231300C3FC88 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C962BBF231300C3FC88 /* Pretendard-SemiBold.otf */; };
-		B8E03C9F2BBF231300C3FC88 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C972BBF231300C3FC88 /* Pretendard-Medium.otf */; };
+		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
+		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
+		B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */; };
+		B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */; };
+		B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3442BC521880031D97D /* LoginViewController.swift */; };
+		B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3452BC521880031D97D /* WelcomeViewController.swift */; };
+		B8D8E34E2BC521930031D97D /* iOS_miniSeminar_1st.md in Resources */ = {isa = PBXBuildFile; fileRef = B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */; };
+		B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E34A2BC521930031D97D /* LoginViewController_DelegatePattern.swift */; };
+		B8D8E3502BC521930031D97D /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E34B2BC521930031D97D /* ScrollView.swift */; };
+		B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E34C2BC521930031D97D /* WelcomeViewController_DelegatePattern.swift */; };
+		B8D8E3542BC5220F0031D97D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B8D8E3532BC5220F0031D97D /* SnapKit */; };
+		B8D8E3562BC5220F0031D97D /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B8D8E3552BC5220F0031D97D /* SnapKit-Dynamic */; };
 		B8E03CA02BBF231300C3FC88 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C982BBF231300C3FC88 /* Pretendard-Light.otf */; };
 		B8E03CA12BBF231300C3FC88 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C992BBF231300C3FC88 /* Pretendard-ExtraLight.otf */; };
 		B8E03CA22BBF231300C3FC88 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C9A2BBF231300C3FC88 /* Pretendard-Thin.otf */; };
-		B8E03CA32BBF231300C3FC88 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C9B2BBF231300C3FC88 /* Pretendard-Bold.otf */; };
-		B8E03CA42BBF231300C3FC88 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8E03C9C2BBF231300C3FC88 /* Pretendard-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +39,20 @@
 		B848BB7F2BB7D7D4001D953C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B848BB822BB7D7D4001D953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B848BB842BB7D7D4001D953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B848BB8A2BB7E4B3001D953C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B848BB8C2BB7E91C001D953C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		B8E03C952BBF231300C3FC88 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../Downloads/Pretendard-1/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
-		B8E03C962BBF231300C3FC88 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
-		B8E03C972BBF231300C3FC88 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../Downloads/Pretendard-1/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
+		B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
+		B8D8E3442BC521880031D97D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8D8E3452BC521880031D97D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = iOS_miniSeminar_1st.md; sourceTree = "<group>"; };
+		B8D8E34A2BC521930031D97D /* LoginViewController_DelegatePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		B8D8E34B2BC521930031D97D /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		B8D8E34C2BC521930031D97D /* WelcomeViewController_DelegatePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		B8E03C982BBF231300C3FC88 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
 		B8E03C992BBF231300C3FC88 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		B8E03C9A2BBF231300C3FC88 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
-		B8E03C9B2BBF231300C3FC88 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../Downloads/Pretendard-1/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
-		B8E03C9C2BBF231300C3FC88 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D8E3542BC5220F0031D97D /* SnapKit in Frameworks */,
+				B8D8E3562BC5220F0031D97D /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +71,11 @@
 		B83176F42BBE397500FF9F48 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B8E03C9B2BBF231300C3FC88 /* Pretendard-Bold.otf */,
-				B8E03C9C2BBF231300C3FC88 /* Pretendard-ExtraBold.otf */,
+				B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */,
+				B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */,
+				B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */,
 				B8E03C992BBF231300C3FC88 /* Pretendard-ExtraLight.otf */,
 				B8E03C982BBF231300C3FC88 /* Pretendard-Light.otf */,
-				B8E03C972BBF231300C3FC88 /* Pretendard-Medium.otf */,
-				B8E03C952BBF231300C3FC88 /* Pretendard-Regular.otf */,
-				B8E03C962BBF231300C3FC88 /* Pretendard-SemiBold.otf */,
 				B8E03C9A2BBF231300C3FC88 /* Pretendard-Thin.otf */,
 			);
 			path = Fonts;
@@ -91,6 +100,8 @@
 		B848BB752BB7D7D0001D953C /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				B8D8E34D2BC521930031D97D /* 2nd */,
+				B8D8E3462BC521880031D97D /* 1st */,
 				B83176F42BBE397500FF9F48 /* Fonts */,
 				B848BB762BB7D7D0001D953C /* AppDelegate.swift */,
 				B848BB782BB7D7D0001D953C /* SceneDelegate.swift */,
@@ -99,10 +110,46 @@
 				B848BB7F2BB7D7D4001D953C /* Assets.xcassets */,
 				B848BB812BB7D7D4001D953C /* LaunchScreen.storyboard */,
 				B848BB842BB7D7D4001D953C /* Info.plist */,
-				B848BB8A2BB7E4B3001D953C /* LoginViewController.swift */,
-				B848BB8C2BB7E91C001D953C /* WelcomeViewController.swift */,
 			);
 			path = "34th-Sopt-Seminar";
+			sourceTree = "<group>";
+		};
+		B8D533292BC5A685002D8FC0 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */,
+				B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		B8D5332A2BC5A68F002D8FC0 /* DelegatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8E34A2BC521930031D97D /* LoginViewController_DelegatePattern.swift */,
+				B8D8E34C2BC521930031D97D /* WelcomeViewController_DelegatePattern.swift */,
+			);
+			path = DelegatePattern;
+			sourceTree = "<group>";
+		};
+		B8D8E3462BC521880031D97D /* 1st */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8E3442BC521880031D97D /* LoginViewController.swift */,
+				B8D8E3452BC521880031D97D /* WelcomeViewController.swift */,
+			);
+			path = 1st;
+			sourceTree = "<group>";
+		};
+		B8D8E34D2BC521930031D97D /* 2nd */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5332A2BC5A68F002D8FC0 /* DelegatePattern */,
+				B8D533292BC5A685002D8FC0 /* Closure */,
+				B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */,
+				B8D8E34B2BC521930031D97D /* ScrollView.swift */,
+			);
+			path = 2nd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +168,10 @@
 			dependencies = (
 			);
 			name = "34th-Sopt-Seminar";
+			packageProductDependencies = (
+				B8D8E3532BC5220F0031D97D /* SnapKit */,
+				B8D8E3552BC5220F0031D97D /* SnapKit-Dynamic */,
+			);
 			productName = "34th-Sopt-Seminar";
 			productReference = B848BB732BB7D7D0001D953C /* 34th-Sopt-Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +200,9 @@
 				Base,
 			);
 			mainGroup = B848BB6A2BB7D7D0001D953C;
+			packageReferences = (
+				B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B848BB742BB7D7D0001D953C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,16 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */,
-				B8E03CA32BBF231300C3FC88 /* Pretendard-Bold.otf in Resources */,
-				B8E03C9D2BBF231300C3FC88 /* Pretendard-Regular.otf in Resources */,
+				B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */,
+				B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */,
 				B8E03CA12BBF231300C3FC88 /* Pretendard-ExtraLight.otf in Resources */,
 				B8E03CA22BBF231300C3FC88 /* Pretendard-Thin.otf in Resources */,
-				B8E03C9E2BBF231300C3FC88 /* Pretendard-SemiBold.otf in Resources */,
-				B8E03CA42BBF231300C3FC88 /* Pretendard-ExtraBold.otf in Resources */,
 				B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */,
 				B8E03CA02BBF231300C3FC88 /* Pretendard-Light.otf in Resources */,
 				B848BB7E2BB7D7D0001D953C /* Main.storyboard in Resources */,
-				B8E03C9F2BBF231300C3FC88 /* Pretendard-Medium.otf in Resources */,
+				B8D8E34E2BC521930031D97D /* iOS_miniSeminar_1st.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,11 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B848BB8B2BB7E4B3001D953C /* LoginViewController.swift in Sources */,
-				B848BB8D2BB7E91C001D953C /* WelcomeViewController.swift in Sources */,
+				B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */,
+				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
+				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
+				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
+				B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */,
 				B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */,
 				B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */,
+				B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */,
+				B8D8E3502BC521930031D97D /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +463,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8D8E3532BC5220F0031D97D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B8D8E3552BC5220F0031D97D /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B848BB6B2BB7D7D0001D953C /* Project object */;
 }
