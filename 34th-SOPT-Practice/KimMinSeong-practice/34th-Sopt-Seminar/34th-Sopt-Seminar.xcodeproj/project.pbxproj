@@ -13,8 +13,16 @@
 		B848BB7E2BB7D7D0001D953C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7C2BB7D7D0001D953C /* Main.storyboard */; };
 		B848BB802BB7D7D4001D953C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848BB7F2BB7D7D4001D953C /* Assets.xcassets */; };
 		B848BB832BB7D7D4001D953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848BB812BB7D7D4001D953C /* LaunchScreen.storyboard */; };
+		B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8550AAB2BDB949600A96F03 /* LoginView.swift */; };
 		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
 		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
+		B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */; };
+		B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721522BD39C2800B161EA /* ChatViewController.swift */; };
+		B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */; };
+		B8B721572BD3A9DF00B161EA /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721562BD3A9DF00B161EA /* ItemViewController.swift */; };
+		B8B7215C2BD3AC6900B161EA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7215B2BD3AC6900B161EA /* ItemModel.swift */; };
+		B8B7215E2BD3AD0A00B161EA /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7215D2BD3AD0A00B161EA /* ItemCollectionViewCell.swift */; };
+		B8B721602BD3AD4000B161EA /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7215F2BD3AD4000B161EA /* ChatModel.swift */; };
 		B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */; };
 		B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */; };
 		B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8E3442BC521880031D97D /* LoginViewController.swift */; };
@@ -39,9 +47,17 @@
 		B848BB7F2BB7D7D4001D953C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B848BB822BB7D7D4001D953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B848BB842BB7D7D4001D953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8550AAB2BDB949600A96F03 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_SanpKit.swift; sourceTree = "<group>"; };
+		B8B721522BD39C2800B161EA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B8B721562BD3A9DF00B161EA /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		B8B7215B2BD3AC6900B161EA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B8B7215D2BD3AD0A00B161EA /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8B7215F2BD3AD4000B161EA /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		B8D5332B2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
 		B8D5332D2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
 		B8D8E3442BC521880031D97D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +116,7 @@
 		B848BB752BB7D7D0001D953C /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				B8B7214D2BD39A6F00B161EA /* 3rd */,
 				B8D8E34D2BC521930031D97D /* 2nd */,
 				B8D8E3462BC521880031D97D /* 1st */,
 				B83176F42BBE397500FF9F48 /* Fonts */,
@@ -112,6 +129,45 @@
 				B848BB842BB7D7D4001D953C /* Info.plist */,
 			);
 			path = "34th-Sopt-Seminar";
+			sourceTree = "<group>";
+		};
+		B8B7214D2BD39A6F00B161EA /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7215A2BD3AC0D00B161EA /* Model */,
+				B8B721592BD3AC0500B161EA /* CollectionView */,
+				B8B721582BD3ABFD00B161EA /* TableView */,
+				B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */,
+				B8550AAB2BDB949600A96F03 /* LoginView.swift */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		B8B721582BD3ABFD00B161EA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B8B721522BD39C2800B161EA /* ChatViewController.swift */,
+				B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B8B721592BD3AC0500B161EA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B8B721562BD3A9DF00B161EA /* ItemViewController.swift */,
+				B8B7215D2BD3AD0A00B161EA /* ItemCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B8B7215A2BD3AC0D00B161EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7215B2BD3AC6900B161EA /* ItemModel.swift */,
+				B8B7215F2BD3AD4000B161EA /* ChatModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B8D533292BC5A685002D8FC0 /* Closure */ = {
@@ -238,14 +294,22 @@
 			files = (
 				B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */,
 				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				B8B721572BD3A9DF00B161EA /* ItemViewController.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
 				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
 				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
+				B8B7215E2BD3AD0A00B161EA /* ItemCollectionViewCell.swift in Sources */,
+				B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */,
 				B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */,
 				B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */,
+				B8B7215C2BD3AC6900B161EA /* ItemModel.swift in Sources */,
+				B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */,
 				B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */,
+				B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */,
 				B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */,
+				B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */,
 				B8D8E3502BC521930031D97D /* ScrollView.swift in Sources */,
+				B8B721602BD3AD4000B161EA /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
