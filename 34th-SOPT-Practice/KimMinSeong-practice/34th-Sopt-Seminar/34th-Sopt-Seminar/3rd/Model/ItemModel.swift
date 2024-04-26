@@ -18,17 +18,17 @@ struct ItemModel {
 extension ItemModel {
     static func dummy() -> [ItemModel] {
         return [
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false),
-//            ItemModel(itemImg: .product1, name: "류희재", price: "22000원", heartIsSelected: false)
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false),
+            ItemModel(itemImg: UIImage(resource: .product1), name: "류희재", price: "22000원", heartIsSelected: false)
         ]
     }
 }

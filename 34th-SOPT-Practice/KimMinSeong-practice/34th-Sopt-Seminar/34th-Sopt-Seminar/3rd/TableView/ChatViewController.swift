@@ -53,7 +53,7 @@ extension ChatViewController: UITableViewDelegate {
 
 extension ChatViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      return 0 // dummy data 이미지 넣으면 10으로 바꿔주기
+      return 10 // dummy data 이미지 넣으면 10으로 바꿔주기
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
