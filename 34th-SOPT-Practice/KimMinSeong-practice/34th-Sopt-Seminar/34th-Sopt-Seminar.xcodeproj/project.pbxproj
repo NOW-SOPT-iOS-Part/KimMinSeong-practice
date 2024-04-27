@@ -16,6 +16,7 @@
 		B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8550AAB2BDB949600A96F03 /* LoginView.swift */; };
 		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
 		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
+		B86D6E1D2BDCCC6A00667418 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E1C2BDCCC6A00667418 /* Config.swift */; };
 		B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */; };
 		B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721522BD39C2800B161EA /* ChatViewController.swift */; };
 		B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */; };
@@ -51,6 +52,7 @@
 		B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		B86D6E1C2BDCCC6A00667418 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_SanpKit.swift; sourceTree = "<group>"; };
 		B8B721522BD39C2800B161EA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
@@ -116,9 +118,10 @@
 		B848BB752BB7D7D0001D953C /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
-				B8B7214D2BD39A6F00B161EA /* 3rd */,
-				B8D8E34D2BC521930031D97D /* 2nd */,
-				B8D8E3462BC521880031D97D /* 1st */,
+				B86D6E1B2BDCCC3E00667418 /* week4 */,
+				B8B7214D2BD39A6F00B161EA /* week3 */,
+				B8D8E34D2BC521930031D97D /* week2 */,
+				B8D8E3462BC521880031D97D /* week1 */,
 				B83176F42BBE397500FF9F48 /* Fonts */,
 				B848BB762BB7D7D0001D953C /* AppDelegate.swift */,
 				B848BB782BB7D7D0001D953C /* SceneDelegate.swift */,
@@ -131,7 +134,15 @@
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
 		};
-		B8B7214D2BD39A6F00B161EA /* 3rd */ = {
+		B86D6E1B2BDCCC3E00667418 /* week4 */ = {
+			isa = PBXGroup;
+			children = (
+				B86D6E1C2BDCCC6A00667418 /* Config.swift */,
+			);
+			path = week4;
+			sourceTree = "<group>";
+		};
+		B8B7214D2BD39A6F00B161EA /* week3 */ = {
 			isa = PBXGroup;
 			children = (
 				B8B7215A2BD3AC0D00B161EA /* Model */,
@@ -140,7 +151,7 @@
 				B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */,
 				B8550AAB2BDB949600A96F03 /* LoginView.swift */,
 			);
-			path = 3rd;
+			path = week3;
 			sourceTree = "<group>";
 		};
 		B8B721582BD3ABFD00B161EA /* TableView */ = {
@@ -188,16 +199,16 @@
 			path = DelegatePattern;
 			sourceTree = "<group>";
 		};
-		B8D8E3462BC521880031D97D /* 1st */ = {
+		B8D8E3462BC521880031D97D /* week1 */ = {
 			isa = PBXGroup;
 			children = (
 				B8D8E3442BC521880031D97D /* LoginViewController.swift */,
 				B8D8E3452BC521880031D97D /* WelcomeViewController.swift */,
 			);
-			path = 1st;
+			path = week1;
 			sourceTree = "<group>";
 		};
-		B8D8E34D2BC521930031D97D /* 2nd */ = {
+		B8D8E34D2BC521930031D97D /* week2 */ = {
 			isa = PBXGroup;
 			children = (
 				B8D5332A2BC5A68F002D8FC0 /* DelegatePattern */,
@@ -205,7 +216,7 @@
 				B8D8E3492BC521930031D97D /* iOS_miniSeminar_1st.md */,
 				B8D8E34B2BC521930031D97D /* ScrollView.swift */,
 			);
-			path = 2nd;
+			path = week2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				B8B721572BD3A9DF00B161EA /* ItemViewController.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
+				B86D6E1D2BDCCC6A00667418 /* Config.swift in Sources */,
 				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
 				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
 				B8B7215E2BD3AD0A00B161EA /* ItemCollectionViewCell.swift in Sources */,
@@ -454,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http:// 3.39.19.52:3000/api";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67GPPL4GT7;
@@ -482,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http:// 3.39.19.52:3000/api";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67GPPL4GT7;
