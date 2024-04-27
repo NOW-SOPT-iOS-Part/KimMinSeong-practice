@@ -14,6 +14,7 @@
 		B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8550AAB2BDB949600A96F03 /* LoginView.swift */; };
 		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
 		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
+		B86D6E1A2BDCC99500667418 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B86D6E192BDCC99500667418 /* Moya */; };
 		B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */; };
 		B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721522BD39C2800B161EA /* ChatViewController.swift */; };
 		B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */; };
@@ -74,6 +75,7 @@
 			files = (
 				B8D8E3542BC5220F0031D97D /* SnapKit in Frameworks */,
 				B8D8E3562BC5220F0031D97D /* SnapKit-Dynamic in Frameworks */,
+				B86D6E1A2BDCC99500667418 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +223,7 @@
 			packageProductDependencies = (
 				B8D8E3532BC5220F0031D97D /* SnapKit */,
 				B8D8E3552BC5220F0031D97D /* SnapKit-Dynamic */,
+				B86D6E192BDCC99500667418 /* Moya */,
 			);
 			productName = "34th-Sopt-Seminar";
 			productReference = B848BB732BB7D7D0001D953C /* 34th-Sopt-Seminar.app */;
@@ -252,6 +255,7 @@
 			mainGroup = B848BB6A2BB7D7D0001D953C;
 			packageReferences = (
 				B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B86D6E182BDCC99500667418 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = B848BB742BB7D7D0001D953C /* Products */;
 			projectDirPath = "";
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.39.169.52:3000/api";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67GPPL4GT7;
@@ -455,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.39.169.52:3000/api";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67GPPL4GT7;
@@ -502,6 +508,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B86D6E182BDCC99500667418 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 		B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -513,6 +527,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B86D6E192BDCC99500667418 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B86D6E182BDCC99500667418 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
 		B8D8E3532BC5220F0031D97D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B8D8E3522BC5220F0031D97D /* XCRemoteSwiftPackageReference "SnapKit" */;
