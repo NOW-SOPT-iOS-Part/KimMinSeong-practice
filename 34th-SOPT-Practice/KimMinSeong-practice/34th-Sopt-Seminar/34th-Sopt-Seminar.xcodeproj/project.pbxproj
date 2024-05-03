@@ -28,6 +28,17 @@
 		B86318ED2BCD8523000B6159 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EC2BCD8523000B6159 /* Pretendard-Bold.otf */; };
 		B86318EF2BCD8556000B6159 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */; };
 		B86D6E1D2BDCCC6A00667418 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E1C2BDCCC6A00667418 /* Config.swift */; };
+		B86D6E1F2BDCD16600667418 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E1E2BDCD16600667418 /* NetworkResult.swift */; };
+		B86D6E212BDCD20600667418 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E202BDCD20600667418 /* MoyaLoggingPlugin.swift */; };
+		B86D6E242BDCD24B00667418 /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E232BDCD24B00667418 /* SignUpRequestModel.swift */; };
+		B86D6E262BDCD27100667418 /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E252BDCD27100667418 /* SignUpResponseModel.swift */; };
+		B86D6E282BDCD28900667418 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E272BDCD28900667418 /* SignUpViewController.swift */; };
+		B86D6E2B2BDCD2C100667418 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B86D6E2A2BDCD2C100667418 /* Moya */; };
+		B86D6E2E2BDCD2F800667418 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = B86D6E2D2BDCD2F800667418 /* Then */; };
+		B86D6E302BDCD34700667418 /* AddTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E2F2BDCD34700667418 /* AddTargetType.swift */; };
+		B86D6E322BDCD35A00667418 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E312BDCD35A00667418 /* UserService.swift */; };
+		B86D6E362BDCD39A00667418 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E352BDCD39A00667418 /* CheckUserInfoViewController.swift */; };
+		B86D6E382BDCD3B000667418 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D6E372BDCD3B000667418 /* UserInfoResponseModel.swift */; };
 		B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */; };
 		B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721522BD39C2800B161EA /* ChatViewController.swift */; };
 		B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */; };
@@ -73,6 +84,15 @@
 		B86318EE2BCD8556000B6159 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		B86318F02BCD856A000B6159 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		B86D6E1C2BDCCC6A00667418 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B86D6E1E2BDCD16600667418 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		B86D6E202BDCD20600667418 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		B86D6E232BDCD24B00667418 /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		B86D6E252BDCD27100667418 /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		B86D6E272BDCD28900667418 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B86D6E2F2BDCD34700667418 /* AddTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTargetType.swift; sourceTree = "<group>"; };
+		B86D6E312BDCD35A00667418 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		B86D6E352BDCD39A00667418 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		B86D6E372BDCD3B000667418 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
 		B8B721502BD39B5700B161EA /* WelcomeViewController_SanpKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_SanpKit.swift; sourceTree = "<group>"; };
 		B8B721522BD39C2800B161EA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B8B721542BD39DC500B161EA /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
@@ -195,6 +215,37 @@
 				B812345F2BE4F1D600669F62 /* NetworkBasicCodes */,
 			);
 			path = week4;
+			sourceTree = "<group>";
+		};
+		B86D6E222BDCD22600667418 /* NetworkBasicCodes */ = {
+			isa = PBXGroup;
+			children = (
+				B86D6E1C2BDCCC6A00667418 /* Config.swift */,
+				B86D6E1E2BDCD16600667418 /* NetworkResult.swift */,
+				B86D6E202BDCD20600667418 /* MoyaLoggingPlugin.swift */,
+			);
+			path = NetworkBasicCodes;
+			sourceTree = "<group>";
+		};
+		B86D6E332BDCD36E00667418 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B86D6E252BDCD27100667418 /* SignUpResponseModel.swift */,
+				B86D6E232BDCD24B00667418 /* SignUpRequestModel.swift */,
+				B86D6E272BDCD28900667418 /* SignUpViewController.swift */,
+				B86D6E312BDCD35A00667418 /* UserService.swift */,
+				B86D6E2F2BDCD34700667418 /* AddTargetType.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B86D6E342BDCD38800667418 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B86D6E352BDCD39A00667418 /* CheckUserInfoViewController.swift */,
+				B86D6E372BDCD3B000667418 /* UserInfoResponseModel.swift */,
+			);
+			path = UserInfo;
 			sourceTree = "<group>";
 		};
 		B8B7214D2BD39A6F00B161EA /* week3 */ = {
@@ -365,14 +416,19 @@
 				B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */,
 				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				B8B721572BD3A9DF00B161EA /* ItemViewController.swift in Sources */,
+				B86D6E302BDCD34700667418 /* AddTargetType.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
+				B86D6E262BDCD27100667418 /* SignUpResponseModel.swift in Sources */,
+				B86D6E322BDCD35A00667418 /* UserService.swift in Sources */,
 				B86D6E1D2BDCCC6A00667418 /* Config.swift in Sources */,
+				B86D6E242BDCD24B00667418 /* SignUpRequestModel.swift in Sources */,
 				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
 				B81234662BE4F2EF00669F62 /* UserService.swift in Sources */,
 				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
 				B8B7215E2BD3AD0A00B161EA /* ItemCollectionViewCell.swift in Sources */,
 				B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */,
 				B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */,
+				B86D6E362BDCD39A00667418 /* CheckUserInfoViewController.swift in Sources */,
 				B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */,
 				B81234612BE4F1E900669F62 /* NetworkResult.swift in Sources */,
 				B81234632BE4F1F100669F62 /* MoyaLoggingPlugin.swift in Sources */,
@@ -380,10 +436,12 @@
 				B8B7215C2BD3AC6900B161EA /* ItemModel.swift in Sources */,
 				B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */,
 				B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */,
+				B86D6E282BDCD28900667418 /* SignUpViewController.swift in Sources */,
 				B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */,
 				B812346A2BE4F40C00669F62 /* SignUpResponseModel.swift in Sources */,
 				B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */,
 				B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */,
+				B86D6E382BDCD3B000667418 /* UserInfoResponseModel.swift in Sources */,
 				B8D8E3502BC521930031D97D /* ScrollView.swift in Sources */,
 				B81234682BE4F40600669F62 /* AddTargetType.swift in Sources */,
 				B8B721602BD3AD4000B161EA /* ChatModel.swift in Sources */,
