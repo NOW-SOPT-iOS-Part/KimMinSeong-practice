@@ -18,6 +18,13 @@
 		B812346E2BE4F42700669F62 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B812346D2BE4F42700669F62 /* SignUpViewController.swift */; };
 		B81234712BE4F43B00669F62 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81234702BE4F43B00669F62 /* CheckUserInfoViewController.swift */; };
 		B81234732BE4F43D00669F62 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81234722BE4F43D00669F62 /* UserInfoResponseModel.swift */; };
+		B817AEC22C12342300CFB855 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AEC12C12342300CFB855 /* LoginView.swift */; };
+		B817AEC42C12344800CFB855 /* LoginViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AEC32C12344800CFB855 /* LoginViewController_MVVM.swift */; };
+		B817AEC62C12354B00CFB855 /* LoginViewController_MVVMObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AEC52C12354B00CFB855 /* LoginViewController_MVVMObservable.swift */; };
+		B817AEC82C12355E00CFB855 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AEC72C12355E00CFB855 /* LoginViewModel.swift */; };
+		B817AECA2C12357200CFB855 /* LoginViewModel_Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AEC92C12357200CFB855 /* LoginViewModel_Observable.swift */; };
+		B817AECC2C12358200CFB855 /* ObservablePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AECB2C12358200CFB855 /* ObservablePattern.swift */; };
+		B817AECE2C12358A00CFB855 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817AECD2C12358A00CFB855 /* Toast.swift */; };
 		B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848BB762BB7D7D0001D953C /* AppDelegate.swift */; };
 		B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848BB782BB7D7D0001D953C /* SceneDelegate.swift */; };
 		B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848BB7A2BB7D7D0001D953C /* ViewController.swift */; };
@@ -60,6 +67,13 @@
 		B812346D2BE4F42700669F62 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B81234702BE4F43B00669F62 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
 		B81234722BE4F43D00669F62 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
+		B817AEC12C12342300CFB855 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B817AEC32C12344800CFB855 /* LoginViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_MVVM.swift; sourceTree = "<group>"; };
+		B817AEC52C12354B00CFB855 /* LoginViewController_MVVMObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_MVVMObservable.swift; sourceTree = "<group>"; };
+		B817AEC72C12355E00CFB855 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B817AEC92C12357200CFB855 /* LoginViewModel_Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel_Observable.swift; sourceTree = "<group>"; };
+		B817AECB2C12358200CFB855 /* ObservablePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePattern.swift; sourceTree = "<group>"; };
+		B817AECD2C12358A00CFB855 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		B848BB732BB7D7D0001D953C /* 34th-Sopt-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34th-Sopt-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848BB762BB7D7D0001D953C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B848BB782BB7D7D0001D953C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +153,20 @@
 			path = UserInfo;
 			sourceTree = "<group>";
 		};
+		B817AEC02C1232A000CFB855 /* week7 */ = {
+			isa = PBXGroup;
+			children = (
+				B817AEC12C12342300CFB855 /* LoginView.swift */,
+				B817AEC32C12344800CFB855 /* LoginViewController_MVVM.swift */,
+				B817AEC52C12354B00CFB855 /* LoginViewController_MVVMObservable.swift */,
+				B817AEC72C12355E00CFB855 /* LoginViewModel.swift */,
+				B817AEC92C12357200CFB855 /* LoginViewModel_Observable.swift */,
+				B817AECB2C12358200CFB855 /* ObservablePattern.swift */,
+				B817AECD2C12358A00CFB855 /* Toast.swift */,
+			);
+			path = week7;
+			sourceTree = "<group>";
+		};
 		B83176F42BBE397500FF9F48 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +199,7 @@
 		B848BB752BB7D7D0001D953C /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				B817AEC02C1232A000CFB855 /* week7 */,
 				B86D6E1B2BDCCC3E00667418 /* week4 */,
 				B8B7214D2BD39A6F00B161EA /* week3 */,
 				B8D8E34D2BC521930031D97D /* week2 */,
@@ -363,14 +392,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8D8E3472BC521880031D97D /* LoginViewController.swift in Sources */,
+				B817AEC22C12342300CFB855 /* LoginView.swift in Sources */,
 				B8D8E3512BC521930031D97D /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				B8B721572BD3A9DF00B161EA /* ItemViewController.swift in Sources */,
+				B817AEC62C12354B00CFB855 /* LoginViewController_MVVMObservable.swift in Sources */,
+				B817AEC42C12344800CFB855 /* LoginViewController_MVVM.swift in Sources */,
 				B848BB7B2BB7D7D0001D953C /* ViewController.swift in Sources */,
+				B817AECA2C12357200CFB855 /* LoginViewModel_Observable.swift in Sources */,
 				B86D6E1D2BDCCC6A00667418 /* Config.swift in Sources */,
 				B8D5332E2BC5A6CD002D8FC0 /* WelcomeViewController_Closure.swift in Sources */,
 				B81234662BE4F2EF00669F62 /* UserService.swift in Sources */,
 				B8D8E34F2BC521930031D97D /* LoginViewController_DelegatePattern.swift in Sources */,
 				B8B7215E2BD3AD0A00B161EA /* ItemCollectionViewCell.swift in Sources */,
+				B817AECC2C12358200CFB855 /* ObservablePattern.swift in Sources */,
 				B8B721512BD39B5700B161EA /* WelcomeViewController_SanpKit.swift in Sources */,
 				B8D5332C2BC5A6BA002D8FC0 /* LoginViewController_Closure.swift in Sources */,
 				B848BB772BB7D7D0001D953C /* AppDelegate.swift in Sources */,
@@ -379,10 +413,12 @@
 				B81234712BE4F43B00669F62 /* CheckUserInfoViewController.swift in Sources */,
 				B8B7215C2BD3AC6900B161EA /* ItemModel.swift in Sources */,
 				B8B721532BD39C2800B161EA /* ChatViewController.swift in Sources */,
+				B817AEC82C12355E00CFB855 /* LoginViewModel.swift in Sources */,
 				B848BB792BB7D7D0001D953C /* SceneDelegate.swift in Sources */,
 				B8B721552BD39DC500B161EA /* ChatTableViewCell.swift in Sources */,
 				B812346A2BE4F40C00669F62 /* SignUpResponseModel.swift in Sources */,
 				B8D8E3482BC521880031D97D /* WelcomeViewController.swift in Sources */,
+				B817AECE2C12358A00CFB855 /* Toast.swift in Sources */,
 				B8550AAC2BDB949600A96F03 /* LoginView.swift in Sources */,
 				B8D8E3502BC521930031D97D /* ScrollView.swift in Sources */,
 				B81234682BE4F40600669F62 /* AddTargetType.swift in Sources */,
